@@ -4,32 +4,42 @@
   <meta charset="utf-8">
   <title>Adrian Wilks Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <body>
+    
+    <nav class="main-nav">
+      <ul class="nav">
+        <li class="name">Adrian Raymond Wilk</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="interests.html">Interests</a></li>
+        <li><a href="Experience.html">Experience</a></li>
+      </ul>
+    </nav>
 
-    <div class="main-nav">
-        <ul class="nav">
-          <li class="name">Adrian Raymond Wilk</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="interests.html">Interests</a></li>
-          <li><a href="Experience.html">Experience</a></li>
-        </ul>
-    </div>
 
     <header>
-      <img src="images/adrian.jpg" alt="Photo of young(professional) Adrian Wilk" class="profile-image">
-      <h1 class="tag name">Hello, My name is Adrian.</h1>
-      <p class="tag location">My home is Brisbane, Australia.</p>
+    <section class="bg-images">
+      <div class="bg-image img-left" alt="My logo of my company"></div>
+      <div class="bg-image img-right" alt="My logo of my company"></div>
+    </section>
+    <section class="hero-content">
+        <div>
+          <img src="images/adrian.jpg" alt="Photo of young (professional) Adrian Wilk" class="profile-image">
+          <h1 class="tag name">Hello, My name is Adrian.</h1>
+          <p class="tag location">My home is Brisbane, Australia.</p>
+        </div>
+    </section>
     </header>
 
+
     <main class="flex">
+      <section>
       <div class="card">
         <h2>Background</h2>
         <p>I'm 32 and the founder of a  bootstrapped startup named <a href="https://noknot.com.au:5001/" class="Noknot"> No Knot!</a> Over the past 2.5 years, we've been developing software solutions targeting challenges in the Allied Health Industry and beyond. Feel free to explore our site. While my talented team built it, they're not behind this message – I'm venturing this solo!</p>
         <p>I'm a seasoned mechanical engineer with a master's in reliability engineering. My expertise lies in data analytics, and I've recently delved into frontend development to better understand my team's work and potentially assist them.</p>
       </div> 
-
       <div class="card">
         <h2>Goals</h2>
         <p>I aim to actively support my development team and eventually contribute to our codebase. Additionally, I'm keen on enhancing my knowledge, skills, and expertise in:</p>
@@ -42,11 +52,12 @@
         </ul>
         <p>I just want to add more skills to my skill set as you always need to keep learning!</p>
       </div> 
-
+    </section>
     </main>
     <footer>
       <ul>
         <li><a href="https://www.linkedin.com/in/adrianwilk/" class="social linkedin">LinkedIn</a></li>
+        <li><a href="https://www.linkedin.com/in/adrianwilk/" class="social github">Github</a></li>
       </ul>
       <p class="copyright">Copyright 2023, Adrian Raymond Wilk</p>
     </footer>
