@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
+Project_One_Treehouse/
+  └── index.html
+  └── css/
+      └── styles.css
+  └── images/
+      └── image1.jpg
+      └── image2.jpg
+      └── ...# Auto detect text files and perform LF normalization
 * text=auto

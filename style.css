@@ -199,6 +199,23 @@ a.social:hover {
   clear: both;
 }
 
+/* This was to get the images to display side by side */
+
+div .mb{
+  border-radius: 50px;
+  width: 500px;
+  height: 500px;  
+}
+
+.flex-container {
+  display: flex;
+}
+
+.MB {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
